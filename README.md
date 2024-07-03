@@ -1,1 +1,1 @@
-# PRJ_OBSACCOUNT
+# obsqura_project

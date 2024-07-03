@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" Thread-count="6" parallel="tests">
+
+<listeners>
+    <listener
+      class-name="automationCore.ExtentReportListener"/>
+  </listeners>
+  <test name="Test1" >
+    <classes>
+      <class name="testCases.Login"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2" >
+    <classes>
+      <class name="testCases.UnitTestCase"/>
+    </classes>
+  </test>
+   
+</suite> <!-- Suite -->
