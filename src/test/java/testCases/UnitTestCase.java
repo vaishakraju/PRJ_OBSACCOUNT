@@ -3,26 +3,17 @@ package testCases;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-
 import automationCore.BasePage;
 import pomClasses.POMLogin;
 import pomClasses.POMUnits;
-import utility.DriverUtility;
 import utility.ExcelUtility;
-import utility.ExtendTestManager;
-import utility.PropertyReadUtility;
-import utility.WaitUtility;
 
-import org.testng.annotations.BeforeTest;
+import utility.PropertyReadUtility;
 import org.testng.annotations.DataProvider;
 
 import java.io.IOException;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
 
 public class UnitTestCase extends BasePage {
 	POMLogin objPomLogin;

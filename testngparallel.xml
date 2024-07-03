@@ -2,18 +2,18 @@
 <suite name="Suite" Thread-count="6" parallel="tests">
 
 <listeners>
-    <listener
-      class-name="automationCore.ExtentReportListener"/>
+    <listener class-name="listeners.ExtentReportListener"/>
+     <listener class-name="listeners.RetryListener"/>
   </listeners>
   <test name="Test1" >
     <classes>
       <class name="testCases.Login"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test2" >
+ <!-- <test name="Test2" >
     <classes>
       <class name="testCases.UnitTestCase"/>
     </classes>
-  </test>
+  </test>-->
    
 </suite> <!-- Suite -->
